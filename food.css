@@ -1,0 +1,215 @@
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px;
+}
+.square {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 15%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+}
+nav {
+  height: 10%;
+  width: 58%;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.name {
+  font-family: "Kirang Haerang";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+li {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4fdec;
+  width: 100%;
+}
+.text1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#text1 {
+  font-family: "Edu VIC WA NT Beginne";
+  font-size: 30px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+
+  color: #000000;
+}
+button {
+  background: #e84c4c;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  margin-right: 4px;
+}
+i {
+  margin-left: 4px;
+}
+.vid {
+  margin-left: 2px;
+}
+
+.img1 {
+  width: 797px;
+  height: 482px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4px;
+  opacity: 0.9;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.grp3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+}
+.img2 {
+  height: 200px;
+  width: 790px;
+  left: 50px;
+  top: 158px;
+  border-radius: 0px;
+}
+.text2 {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-left: 10%;
+  font-family: "Julius Sans One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 31px;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+#learn {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  margin: 8px;
+}
+.learn1 {
+  color: red;
+  padding-left: 8px;
+}
+#abt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: grey;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .body {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: stretch;
+    align-items: center;
+    background-color: #f4fdec;
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .grp3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+  }
+  img1 {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+}
